@@ -1,0 +1,10 @@
+1 	
+2 	; Required
+3 	; Game Mode Will Not Run If Settings Are Not Correct!
+4 	hostname=127.0.0.1
+5 	username=root
+6 	password=
+7 	dbname=samp
+8 	
+9 	; Optional
+10 	adminipcheck=0 ; 1 for true, 0 for false

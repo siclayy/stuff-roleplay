@@ -1,0 +1,18 @@
+		   -CHANGELOG & SYSTEM PREVIEW By Clay-
+=====================================================================================
+-NOTE: STILL BUG IN /STATS
+-NEXT UPDATE: ADD BUS,SWEP,MAIL,TRACK AND FIX STATS ATM POS
+
+============================================================================================
+--------------------    Information - how to use   --------------------------------------
+
+~ STATIC VEHICLE(SIDEJOB VEHICLE) deleted plate system/delete d3text.
+~
+--------------------    fixed & Improved system    --------------------------------------
+*fixed Body part : Head,Neck,Jaw,Left Clavicle,Right <--,rgith up arm,left <--,forearm
+*fixed accesories system
+*Improved statis system pemain "simple mode"
+*Improved Location player onfoot
+*Improved admin duty to simple cmd "/aduty"
+*Improved bug fc in android
+

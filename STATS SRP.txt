@@ -1,0 +1,30 @@
+
+		
+			[DIALOG LIST PLAYER STATS] By Clay
+
+
+"[In Character]\n\n{FFFFFF}Money:[{FFFF00}%d{FFFFFF}] - Bank:[{FFFF00}%d{FFFFFF}] - Phone:[{FFFF00}%d{FFFFFF}] - Job:[{FFFF00}%s{FFFFFF}] - Job2:[{FFFF00}%s{FFFFFF}] - Gender:[{00FF00}%s{FFFFFF}] - Organization:[{FFFF00}%s{FFFFFF}] - Rank:[{FF00FF}%s{FFFFFF}] - Married[{FFFF00}%s{FFFFFF}] - Health[{FFFF00}%.1f{FFFFFF}]\n MaxHealth:[{0000FF}%.1f{FFFFFF}] - Armor:[{AFAFAF}%.1f{FFFFFF}]",
+username,cash,account,pnumber,jtext,j2text,,atext,ftext,rtext,married,health,maxhp,armor);
+format(coordsstring2, sizeof(coordsstring2),
+		//
+"%s - JailTime:[{FFFF00}%d{FFFFFF}] - Claim:[{FFFF00}%d{FFFFFF}]\nEXP:[{FFFF00}%d/%d{FFFFFF}] - EMT:[{FFFF00}%d{FFFFFF}] - EMT:[{FFFF00}%s{FFFFFF}] - EMT:[{FFFF00}%s{FFFFFF}] - VIP:[{0000FF}%s{FFFFFF}] - VIPTime:[{0000FF}%s{FFFFFF}]\nEMT:[{0000FF}%s{FFFFFF}] - EMT:[{FFFF00}%s{FFFFFF}] - EMT:[{0000FF}%s{FFFFFF}]\nHouse:[{FFFF00}%d{FFFFFF}] - House2:[{FFFF00}%d{FFFFFF}]",
+coordsstring1,jailtime,points,exp,expamount,ptime,jtext,j2text,viprank,donatetime,married,ftext,rtext,hkey,hkey2);
+format(coordsstring3, sizeof(coordsstring3),
+				//
+"%s - Employee:[{FFFF00}%d{FFFFFF}] - Business:[{FFFF00}%d{FFFFFF}] - Business2:[{FFFF00}%d{FFFFFF}] - Garage:[{FFFF00}%d{FFFFFF}] - Garage2:[{FFFF00}%d{FFFFFF}]\n%s:[{FFFF00}%d{FFFFFF}] - %s:[{FFFF00}%d{FFFFFF}] - %s:[{FFFF00}%d{FFFFFF}] - %s:[{FFFF00}%d{FFFFFF}] - %s:[{FFFF00}%d{FFFFFF}]",
+coordsstring2,bizempkey,bkey,bkey2,GarageKey,GarageKey2,vehid1,veh1,vehid2,veh2,vehid3,veh3,vehid4,veh4,vehid5,veh5);
+ShowPlayerDialog(playerid, 84, DIALOG_STYLE_MSGBOX, statstring, coordsstring3, "Select", "Cancel");
+
+ShowDialogMessageToAllPlayers;(DisplayLog);
+DisplayClientLog;
+	Public:stats(statspemain)
+
+		PlayerMessage
+
+
+	ShowDialogMassageFromAllPlayer (Attach Vehicle)
+
+
+
+
+
