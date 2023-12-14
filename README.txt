@@ -6,9 +6,9 @@
  | |___| | |  __| (_| | | |_   _    ___) | | |___| |___ / ___ \| |  
   \____|_|  \___|\__,_|_|\__| (_)  |____/|_|\____|_____/_/   \_|_|  
                                                                     
-                                                                    
+
 =============================================================
-Stuff's RP is Roleplay Gamemode using Dini.
+Stuff's RP is Roleplay Gamemode using Dini2 Include.
 
 =============================================================
 INSTALLATION
@@ -18,6 +18,6 @@ INSTALLATION
 3. and click Server.exe to start ur own server
 
 =============================================================
-USAGE AND COMMENTS
+FAQ : https://discord.gg/kVR7NvfyUx
 =============================================================
 
